@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
-import NumeroDisplay from "../components/NumeroDisplay";
 import { mega } from "../functions/mega";
+
+import NumeroDisplay from "../components/NumeroDisplay";
 
 export default function Home() {
   const [qtde, setQtde] = useState(6);
